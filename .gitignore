@@ -1,0 +1,131 @@
+# 🚀 HR Management System - Git Ignore
+
+# ===============================
+# 📦 MAVEN
+# ===============================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===============================
+# ☕ JAVA
+# ===============================
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ===============================
+# 🔧 IDE SUPPORT FILES
+# ===============================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===============================
+# 🌸 SPRING BOOT
+# ===============================
+*.pid
+*.orig
+spring-shell.log
+
+# ===============================
+# 🗄️ DATABASE
+# ===============================
+*.h2.db
+*.h2.mv.db
+*.h2.trace.db
+
+# ===============================
+# 📁 SYSTEM FILES
+# ===============================
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+
+# ===============================
+# 🔐 SECURITY
+# ===============================
+# Sensitive information
+*.env
+.env.*
+application-*.properties
+application-*.yml
+!application.properties
+!application.yml
+
+# ===============================
+# 📊 LOGS
+# ===============================
+logs/
+*.log
+*.log.*
+
+# ===============================
+# 🧪 TEST
+# ===============================
+# Test coverage
+.nyc_output/
+coverage/
+
+# ===============================
+# 📦 NODE (Frontend için ileride)
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# 📄 DOCUMENTATION
+# ===============================
+# Keep documentation
+!*.md
+!*.txt 
