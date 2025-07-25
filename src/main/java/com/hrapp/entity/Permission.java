@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
  * - ROLE_ASSIGN: Rol atama
  * - HR_PROCESS: İK süreçleri
  * - RESULTS_VIEW: Sonuçları görme
- * - PROJECT_CREATE: Proje oluşturma
+ * - PROJECT_CREATE: Proje oluş turma
  * vb.
  */
 @Entity
@@ -122,6 +122,20 @@ public class Permission {
     public static final String SURVEY_CREATE = "SURVEY_CREATE";
     public static final String SURVEY_ASSIGN = "SURVEY_ASSIGN";
     public static final String SURVEY_RESULTS = "SURVEY_RESULTS";
+    
+    // 📊 Dimension İzinleri (Admin, HR Manager)
+    public static final String DIMENSION_CREATE = "DIMENSION_CREATE";
+    public static final String DIMENSION_READ = "DIMENSION_READ";
+    public static final String DIMENSION_UPDATE = "DIMENSION_UPDATE";
+    public static final String DIMENSION_DELETE = "DIMENSION_DELETE";
+    public static final String DIMENSION_MANAGE = "DIMENSION_MANAGE";
+    
+    // 🎯 Success Profile İzinleri (Admin, HR Manager)
+    public static final String SUCCESS_PROFILE_CREATE = "SUCCESS_PROFILE_CREATE";
+    public static final String SUCCESS_PROFILE_READ = "SUCCESS_PROFILE_READ";
+    public static final String SUCCESS_PROFILE_UPDATE = "SUCCESS_PROFILE_UPDATE";
+    public static final String SUCCESS_PROFILE_DELETE = "SUCCESS_PROFILE_DELETE";
+    public static final String SUCCESS_PROFILE_MANAGE = "SUCCESS_PROFILE_MANAGE";
     
     // 📧 Mail İzinleri (Admin)
     public static final String MAIL_TEMPLATE_MANAGE = "MAIL_TEMPLATE_MANAGE";

@@ -128,4 +128,11 @@ yarn-error.log*
 # ===============================
 # Keep documentation
 !*.md
-!*.txt 
+!*.txt
+
+# ===============================
+# 📊 EXCEL FILES (Excel analiz dosyalarını ignore et)
+# ===============================
+*.xlsx
+*.xls
+GridSürmeliAnaliz.xlsx 
